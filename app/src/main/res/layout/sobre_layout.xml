@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sobre">
+
+
+    <ImageButton
+        android:id="@+id/tab_button_sobre"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:onClick="open_tab"
+        />
+
+    <ListView
+        android:clickable="true"
+        android:id="@+id/list_view_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#08D99A"
+        android:visibility="invisible"
+        android:entries="@array/menu_titles"
+        android:divider="@color/colorPrimaryDark"
+        />
+
+    <ImageButton
+        android:id="@+id/close_button_sobre"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="25dp"
+        android:onClick="close_tab"
+        android:visibility="invisible"
+        />
+</RelativeLayout>
+

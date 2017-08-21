@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ParqueCidadeApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    
+    <string-array name="menu_titles">
+        <item> Sobre o Parque</item>
+        <item> Programação &amp; Eventos </item>
+        <item> Esporte no Parque </item>
+        <item> Cultura &amp; Lazer </item>
+        <item> Tursimo </item>
+        <item> Fale Conosco </item>
+    </string-array>
+</resources>
